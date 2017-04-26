@@ -1,0 +1,11 @@
+ body {
+   margin: 50px 50px 50px 50px;
+   text-align: center;
+   background: url("nike-galaxy-wallpaper-1.jpg");
+   color: lightblue;
+   text-shadow: 4px 4px 7px black;
+ }
+
+ .form-group {
+   font-family: 'Courgette', cursive;
+ }

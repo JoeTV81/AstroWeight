@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Styling Links and CSS file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>AstroWeight Calculator</title>
+  <h1>AstroWeight Calculator</h1>
+
+</head>
+
+<body>
+  <!--Weight Input-->
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="userWeight">Weight</label>
+      <input type="number" class="form-control" id="userWeight" placeholder="">
+    </div>
+    <!--Planet Select-->
+    <div class="form-group">
+      <label for="planetSelect">Planet Select</label>
+      <select class="form-control" id="planetSelect">
+      <option></option>
+      </select>
+    </div>
+    <!--Calculate-->
+    <button type="button" id="calculateWeight" class="btn btn-primary">Calculate</button>
+    <!--Results-->
+    <p id="output"></p>
+  </form>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
